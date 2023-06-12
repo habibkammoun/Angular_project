@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular_project';
+  peopleList: any[] = [
+    { name: 'lahbib', date: '12 april', notification: 23, message: 'sahhaa', active: 'border-red-500' },
+    { name: 'mahdi', date: '12 april', notification: 85, message: 'cv' },
+    { name: 'omaima', date: '12 mars', notification: 2, message: 'cc' }
+  ];
 }
+
